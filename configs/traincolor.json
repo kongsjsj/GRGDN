@@ -1,0 +1,53 @@
+{
+  "train_dataset": {
+    "root_path": "../../dataset/trainsets/color",
+    "kernel_path": "../../dataset/kernels/kernels_19.mat",
+    "patch_size": 256,
+    "is_train": false,
+    "num_channels": 3,
+    "num_workers": 8,
+    "sigma_min": 0,
+    "sigma_max": 25,
+    "batch_size": 8
+  },
+
+  "val_dataset": {
+    "root_path": "../../dataset/testsets/colortest",
+    "kernel_path": "../../dataset/kernels/kernels_19.mat",
+    "num_channels": 3,
+    "noise_level": 2.55,
+    "kernel_index": 8
+  },
+
+  "model": {
+    "model_select": "NRL_GDN",
+    "model_save_file": "pretrainedmodels",
+    "num_channels": 3,
+    "iter_num": 1
+  },
+
+  "optimizer": {
+    "name": "adam",
+    "lr": 1e-4
+  },
+
+  "multi_step_lr": {
+    "milestone": 1400
+  },
+
+  "train_options": {
+    "epoch_val": 1,
+    "epoch_save": 100,
+    "epochs": 1500,
+    "resume": false,
+    "resume_model_name": "NRL_GDN.pth",
+    "is_train_gauss": true,
+    "is_train_jpeg_compression": false,
+    "is_train_poisson_gaussian": false,
+    "is_train_impulse": false,
+    "seed": 123,
+    "disable_cuda": true,
+    "device_ids": [0, 1],
+    "log_file": "deblur_logger_NRL_GDN.txt"
+  }
+}

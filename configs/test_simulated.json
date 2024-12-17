@@ -1,0 +1,26 @@
+{
+  "test_dataset": {
+    "is_gray_scale": true,
+    "is_test_real": false,
+    "is_test_nonuniform": true,
+    "is_test_gauss": false,
+    "is_test_jpeg_compression": false,
+    "is_test_poisson_gaussian": false,
+    "is_test_impulse": false,
+    "sigma_map_type": "gauss",
+    "sigma_map_path": "./data/true_sigma_maps.mat",
+    "sigma_map_av": 2,
+    "sigma_map_index": 1,
+    "result_save_file": "results",
+    "root_path": "./test_dataset",
+    "test_data": "Set12",
+    "kernel_path": "./test_dataset/kernels/kernels_8.mat",
+    "test_noise_level": 2.55,
+    "test_noise_intensity": 0.001,
+    "jpeg_quality_factor": 60,
+    "num_channels": 3,
+    "sigma_min": 0,
+    "sigma_max": 25,
+    "batch_size": 1
+  }
+}
