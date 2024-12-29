@@ -51,7 +51,7 @@ python deblurring.py
 python deblurring.py
 ```
 
-<img src="./Figs/TABLE3.png" style="zoom:80%;" />
+<img src="./Figs/TABLE4.png" style="zoom:80%;" />
 
 ## Pre-trained Model
 
