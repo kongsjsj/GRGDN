@@ -6,7 +6,7 @@ This repository is the PyTorch implementation of the work:
 
 Shengjiang Kong, Weiwei Wang, Yu Han, Xiangchu Feng
 
-To appear at **[JVCI](https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation) (Journal of Visual Communication and Image Representation)**
+To will appear at **[JVCI](https://www.sciencedirect.com/journal/journal-of-visual-communication-and-image-representation) (Journal of Visual Communication and Image Representation)**
 
 ## Introduction
 
