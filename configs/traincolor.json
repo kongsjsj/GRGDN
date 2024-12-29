@@ -7,7 +7,7 @@
     "num_channels": 3,
     "num_workers": 8,
     "sigma_min": 0,
-    "sigma_max": 25,
+    "sigma_max": 12.75,
     "batch_size": 8
   },
 
